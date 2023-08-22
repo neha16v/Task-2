@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Qwigley">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand text-warning font" style="    height: 115px;" href="#">Hot Meals</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><b>Deliver to:</b> <i class="fa-solid fa-location-dot text-warning"></i> Current Location <b>Ashok Nagar, Chennai-600013</b></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-magnifying-glass text-warning"></i>
+                        <input class="form-control form-control-search border-0   fw-bold searchnav" type ="search" placeholder="Search Food" aria-label="Search">
+                        <button class="btn btn-outline-success border border-warning  text-warning   fw-bold" type="submit"><i class="fa-solid fa-user fw-bold text-warning rounded"></i><span class="px-2">Login</span></button>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </section> -->
+    <section style="margin-bottom: 85px;">
+        <nav class="navbar navbar1" style="height: 100px;">
+            <div class="container">
+              <a class="navbar-brand text-warning font p-0" style="height: 96px;">Hot Meals</a>
+              <a class="navbar-brand d-flex align-items-center justify-content-center m-0 gap-3 " ><span class="  fw-bold" >Deliver to: </span>
+                <div class="d-flex align-items-center gap-3" >
+                    <i class="fa-solid fa-location-dot text-warning"></i>
+                    <span>Current Location <b>Ashok Nagar, Chennai-600013</b></span>
+                </div>
+                </a>
+              <form class="d-flex" role="search">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-magnifying-glass text-warning"></i>
+                    <input class="form-control form-control-search border-0   fw-bold searchnav" type ="search" placeholder="Search Food" aria-label="Search">
+                </div>            
+                <div class="d-flex align-items-center login px-3 justify-content-center rounded">
+                    <i class="fa-solid fa-user text-warning "></i><button class="border-0 bg-transparent text-warning   fw-bold" type="submit">Login</button>
+                </div>
+              </form>
+            </div>
+        </nav>
+        <div class="container-fluid" style="background-color:#FDBE35; height:450px ;">
+            <div class="row d-flex flex-justify-content-center align-items-center" style="gap: 3px;">
+                <div class=" col-lg-6 col-md-12 d-flex flex-column justify-content-center " style="padding-left: 114px;">
+                        <div class="navbar-brand text-light font p-0" style="height: 90px;">Look at your fav Meals</div>
+                        <div class="Source Sans Pro text-dark-emphasis d-flex align-items-center" style="height: 60px;">Within a few clicks, find meals that are accessible near you</div>
+                        <div class="d-flex align-items-center color gap-2">
+                            <div class="d-flex align-items-center login px-3 justify-content-center rounded bikecolor  border-0" style="background-color: rgba(241, 114, 40, 0.1); height: 40px;">
+                                <i class="fa-solid fa-motorcycle " style="color: #F17228;"></i>
+                                <button class="border-0 Sans Pro fw-bold " style="color: #F17228;" type="submit">Delivery</button>
+                            </div>
+                            <div class="d-flex align-items-center login px-3 justify-content-center rounded border-0" style="background-color: white;">
+                                <i class="fa-solid fa-bag-shopping text-dark-emphasis"></i>
+                                <button class=" border-0    fw-bold text-dark-emphasis" style="background-color: white;" type="submit">Pickup</button>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center color gap-2">
+                            <div class="d-flex align-items-center login px-3 justify-content-center rounded bikecolor gap-2 border-0" style="background-color: rgba(245, 245, 245, 1);">
+                                <i class="fa-solid fa-location-dot" style="color: #F17228;"></i>
+                                <input class="border-0 text-dark-emphasis" style="height: 40px; width: 400px; background-color: rgba(245, 245, 245, 1);" placeholder="Enter your address"></input>
+                            </div>
+                            <div class="d-flex align-items-center login px-3 justify-content-center rounded " style="background-color:#F17228;width: 250px;">
+                                <i class="fa-solid fa-magnifying-glass text-light"></i>
+                                <button class=" border-0 fw-bold text-light" style="background-color: white; height: 50px; background-color:#F17228; " type="submit">Find food</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="col" style="padding-left: 118px;">
+                    <img style="width: 524px; height: 424px;" src="./images/meals.png">
+                </div>                
+            </div>        
+        </div>
+    </section>
+
+    <section class="tiffen" style="margin-bottom: 85px;">
+        <div class="container d-flex justify-content-space-center align-items-center">
+            <div class="row">
+                <div class="col d-flex flex-column ">
+                    <img width="100%" src="./images/vada.png">
+                    <span class="text-start d-flex align-items-center Sans Pro fw-bold" style="height: 50px;">Vada</span>
+                    <button class="w-50   fw-bold border-0 rounded" style="height: 40px; background-color: #e7b287; color: #F17228;">30 min Delivery</button>
+                </div>
+                <div class="col d-flex flex-column ">
+                    <img width="100%" src="./images/idly.png">
+                    <span class="text-start d-flex align-items-center Sans Pro fw-bold" style="height: 50px;">Idly</span>
+                    <button class="w-50   fw-bold border-0 rounded" style="height: 40px; background-color: #e7b287; color: #F17228;">30 min Delivery</button>
+                </div>
+                <div class="col d-flex flex-column ">
+                    <img width="100%" src="./images/parotta.png">
+                    <span class="text-start d-flex align-items-center Sans Pro fw-bold" style="height: 50px;">parotta</span>
+                    <button class="w-50   fw-bold border-0 rounded" style="height: 40px; background-color: #e7b287; color: #F17228;">30 min Delivery</button>
+                </div>
+                <div class="col d-flex flex-column ">
+                    <img width="100%" src="./images/kitchadi.png">
+                    <span class="text-start d-flex align-items-center Sans Pro fw-bold" style="height: 50px;">Kitchadi</span>
+                    <button class="w-50   fw-bold border-0 rounded" style="height: 40px; background-color: #e7b287; color: #F17228;">30 min Delivery</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="working" style="margin-bottom: 85px;">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-center   fw-bold fs-2" style="color: #F17228; height: 100px;">How does it work</div>
+                <div class="d-flex align-items-center justify-content-center border" style="height: 220px;">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="./images/discount.png">
+                        <div class="fw-bold fs-2 w-50" style="color: #F17228;">Daily Discounts</div>
+                        <img src="./images/line.png">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="./images/location.png">
+                        <div class="fw-bold fs-2 w-50" style="color: #F17228;">Live Tracing</div>
+                        <img src="line.png">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="./images/clock.png">
+                        <div class="fw-bold fs-2 w-50" style="color: #F17228;">Quick Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="searchfood" style="margin-bottom: 85px;">
+        <div class="container-fluid" style="background-color: cornsilk; height: 450px;">
+            <div class="row Sans Pro fw-bold fs-2 d-flex text-start align-items-center justify-content-start" style="height: 150px; margin-left: 81px;">Search by Food</div>
+            <div class="row d-flex justify-content-center align-items-center px-5" style="height: 300px;">
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img class="w-75" src="./images/Food Photo1.png">
+                    <span class="d-flex align-items-center   fw-bold" style="height: 50px;">Dosa</span>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img class="w-75"src="./images/Food Photo 2.png">
+                    <span class="d-flex align-items-center   fw-bold" style="height: 50px;">Aapppm</span>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img class="w-75"src="./images/Food Photo 3.png">
+                    <span class="d-flex align-items-center   fw-bold" style="height: 50px;">Puttu</span>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img class="w-75"src="./images/Food Photo 4.png">
+                    <span class="d-flex align-items-center   fw-bold" style="height: 50px;">Idiyappam</span>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img class="w-75"src="./images/Food Photo 5.png">
+                    <span class="d-flex align-items-center   fw-bold" style="height: 50px;">Pongal</span>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img class="w-75"src="./images/Food Photo 6.png">
+                    <span class="d-flex align-items-center   fw-bold" style="height: 50px;">Veg rice</span>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="besttiffen" style="margin-bottom: 85px;">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center align-items-center gap-5">
+                    <div style="width: 300px;">
+                        <div class="  fw-bold fs-1">Best deals <span class="text-warning">Crispy Diffen</span></div>
+                        <div class="text-body-tertiary" style="height: 100px;">Enjoy the large size of Dosa. Complete perfect slice of Dosa.</div>
+                        <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: rgba(255, 184, 0, 1); height: 40px;">PROCEED TO ORDER ></button>
+                    </div>
+                    <img  style="width: 761px; height: 412px;" src="./images/besttiffen.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="besttiffen" style="margin-bottom: 85px;">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center align-items-center gap-5">
+                    <div style="width: 300px;">
+                        <div class="  fw-bold fs-1">Best deals <span class="text-warning">Crispy Diffen</span></div>
+                        <div class="text-body-tertiary" style="height: 100px;">Enjoy the large size of Dosa. Complete perfect slice of Dosa.</div>
+                        <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: rgba(255, 184, 0, 1); height: 40px;">PROCEED TO ORDER ></button>
+                    </div>
+                    <img style="width: 761px; height: 412px;" src="./images/besttiffen.png">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="popular items">
+        <div class="container">
+            <div class="row fs-2 fw-bolder d-flex align-items-center justify-content-center popularfont">
+                Popular items
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="height: 425px;">
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/muruku.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Muruku</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/Paniyaram.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Paniyaram</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/seval.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Seeval Murukku</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/mixture.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Mixture</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/veg soup.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Veg Soup</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+            </div>
+            <div class="row" style="height: 500px;">
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/gulabjamun.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Gulab Jamun</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/urunda.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Porivellangai Urundai</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/jangiri.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Jangri</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/laddu.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Lattu</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <img width="100%" src="./images/halwa.png"/>
+                    <span class="fw-bold d-flex align-items-center" style="height: 60px;">Halwa</span>
+                    <button class="w-100 text-light fw-bold border-0 rounded" style="background-color: #F17228; height: 40px;">Order now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about text-light d-flex align-items-center" style="background-color: black; height: 450px;">
+        <div class="container-fluid d-flex flex-column align-items-center justify-content-center"  style="height: 300px;  width: 1400px;">
+            <div class="row d-flex align-items-center justify-content-center w-100" style="height: 100px; width:1342px; margin-left: 18px; margin-right: 13px;">
+                <img src="HR (1).png">
+            </div>
+            <div class="container d-flex py-4">
+                <div class="row w-50">
+                    <div class=" fs-3 fw-bold" style="height: 75px; ">Company</div>
+                    <div style="height: 28px;">About us</div>
+                    <div style="height: 28px;">Team</div>
+                    <div style="height: 28px;">Careers</div>
+                    <div style="height: 28px;">Blog</div>
+                </div>
+                <div class="row w-50">
+                    <div class=" fs-3 fw-bold"style="height: 75px;">Contact</div>
+                    <div style="height: 28px;">Help & Support</div>
+                    <div style="height: 28px;">Partner with us </div>
+                    <div style="height: 28px;">Ride with us</div>
+                </div>
+                <div class="row w-50">
+                    <div class=" fs-3 fw-bold"style="height: 75px;">Legal</div>
+                    <div style="height: 28px;">Terms & Conditions</div>
+                    <div style="height: 28px;">Refund & Cancellation</div>
+                    <div style="height: 28px;">Privacy Policy</div>
+                    <div style="height: 28px;">Cookie Policy</div>
+                </div>
+                <div class="row w-50  fw-bold text-white-50">
+                    <div class="fs-6 d-flex align-items-center" style="height: 50px;">FOLLOW US</div>
+                    <div class="d-flex align-items-center"  style="height: 60px;"><img src="./images/socialmedia.png"></div>
+                    <div class="fs-6 d-flex align-items-center" style="height: 70px;">Receive exclusive offers in your mailbox</div>
+                    <nav class="navbar button">
+                        <div class="container-fluid p-0">
+                          <form class="d-flex p-0 gap-2" role="search">
+                            <div class="d-flex align-items-center login px-3 justify-content-center rounded bikecolor gap-2 border-0 " style="background-color: rgba(66, 66, 66, 1);margin-left:11px">
+                                <i class="fa-solid fa-envelope search"></i>
+                                <input class="form-control me-2 border-0" style="background-color: rgba(66, 66, 66, 1);" type="search" placeholder="Enter your mail" aria-label="Search">
+                            </div>
+                            <button class="btn btn-outline-success text-light fw-bold" type="submit" style="background-color: rgba(255, 184, 0, 1);">Subscribe</button>
+                          </form>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center w-100" style="height: 100px; width:1342px; margin-left: 18px; margin-right: 13px;">
+                <img src="HR (1).png">
+            </div>
+                <div class="row w-100">
+                    <div class=" col d-flex align-items-center justify-content-start"style="height: 50px;">All rights Reserved ©</div>
+                <div class=" col d-flex align-items-center justify-content-end"style="height: 50px;">Made with
+                    <i class="fa-solid fa-heart text-warning p-1"></i>by Athi</div>
+                </div>
+                
+        </div>
+    </section>
+
+    <!-- <section class="about text-light d-flex align-items-center" style="background-color: black; height: 400px;">
+        <div class="container-fluid d-flex flex-column align-items-center justify-content-center"  style="height: 300px;">
+            <div class="row d-flex align-items-center justify-content-center w-100" style="height: 100px; width:1342px;margin-left: 18px;margin-right: 13px;">
+                <img src="./images/HR (1).png">
+            </div>
+            <div class="container d-flex py-4">
+                <div class="row w-50">
+                    <div class=" fs-3 fw-bold" style="height: 75px; ">Company</div>
+                    <div style="height: 28px;">About us</div>
+                    <div style="height: 28px;">Team</div>
+                    <div style="height: 28px;">Careers</div>
+                    <div style="height: 28px;">Blog</div>
+                </div>
+                <div class="row w-50">
+                    <div class=" fs-3 fw-bold"style="height: 75px;">Contact</div>
+                    <div style="height: 28px;">Help & Support</div>
+                    <div style="height: 28px;">Partner with us </div>
+                    <div style="height: 28px;">Ride with us</div>
+                </div>
+                <div class="row w-50">
+                    <div class=" fs-3 fw-bold"style="height: 75px;">Legal</div>
+                    <div style="height: 28px;">Terms & Conditions</div>
+                    <div style="height: 28px;">Refund & Cancellation</div>
+                    <div style="height: 28px;">Privacy Policy</div>
+                    <div style="height: 28px;">Cookie Policy</div>
+                </div>
+                <div class="row w-50  fw-bold text-white-50">
+                    <div class="fs-6 d-flex align-items-center" style="height: 50px;">FOLLOW US</div>
+                    <div class="d-flex align-items-center"  style="height: 60px;"><img src="./images/socialmedia.png"></div>
+                    <div class="fs-6 d-flex align-items-center" style="height: 70px;">Receive exclusive offers in your mailbox</div>
+                    <nav class="navbar button">
+                        <div class="container-fluid p-0">
+                          <form class="d-flex p-0 gap-2" role="search">
+                            <div class="d-flex align-items-center login px-3 justify-content-center rounded bikecolor gap-2 border-0 " style="background-color: rgba(66, 66, 66, 1);margin-left:11px">
+                                <i class="fa-solid fa-envelope search"></i>
+                                <input class="form-control me-2 border-0" style="background-color: rgba(66, 66, 66, 1);" type="search" placeholder="Enter your mail" aria-label="Search">
+                            </div>
+                            <button class="btn btn-outline-success text-light fw-bold" type="submit" style="background-color: rgba(255, 184, 0, 1);">Subscribe</button>
+                          </form>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center w-100" style="height: 100px; width:1342px; margin-left: 18px; margin-right: 13px;">
+                <img src="HR (1).png">
+            </div>
+            <div class=" container d-flex">
+                <div class="row">
+                    <div class="d-flex align-items-center justify-content-start"style="height: 50px;">All rights Reserved ©</div>
+                    <div class="d-flex align-items-center justify-content-end"style="height: 50px;">Made with
+                    <i class="fa-solid fa-heart text-warning p-1"></i>by Athi</div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section> -->
+</body>
+</html>

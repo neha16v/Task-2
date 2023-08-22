@@ -1,0 +1,41 @@
+.form-control-search{
+    width: 127px !important;
+}
+.login{
+    border: 1px solid #FFAC0D;
+}
+.font{
+    font-family: Qwigley;
+    font-size: 80px !important;
+}
+.navbar1{
+    padding-top: 0 !important;
+}
+.popularfont{
+    font-family: Source Sans Pro;
+}
+.button{
+    background-color: black;
+}
+.search{
+    border: 0;
+    padding: 0;
+}
+.bikecolor{
+    background-color: #e7b287;
+}
+.color{
+    padding: 20px;
+    background-color: white;
+}
+.searchnav{
+    width: 150px !important;
+}
+#navbar{
+    top:0;
+    left:0;
+    z-index:100;
+    padding-left: 86px;
+    padding-right: 107px;
+    height: 102px;
+}
